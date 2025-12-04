@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional car wash and auto detailing services. Express wash, full detail, and ceramic coating. Book your appointment today!">
+    <meta name="keywords" content="car wash, auto detailing, ceramic coating, car cleaning, professional detailing">
+    <title>Elite Auto Detailing - Professional Car Wash & Detailing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M20 5L25 15H35L27 22L30 32L20 26L10 32L13 22L5 15H15L20 5Z" fill="var(--accent)"/>
+                        <circle cx="20" cy="20" r="3" fill="var(--bg)"/>
+                    </svg>
+                    <span class="logo-text">Elite Auto</span>
+                </div>
+                <nav class="nav" role="navigation" aria-label="Main navigation">
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-list" id="navList">
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#booking" class="btn btn-primary header-cta">Book Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Car Care That Shines</h1>
+                <p class="hero-subtitle">Professional auto detailing services that restore your vehicle's showroom finish. Experience the difference of expert care.</p>
+                <div class="hero-cta">
+                    <a href="#booking" class="btn btn-primary btn-large">Book Appointment</a>
+                    <a href="#pricing" class="btn btn-secondary btn-large">See Pricing</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M50 150L100 50L150 100L200 30L250 120L250 180H50V150Z" fill="url(#carGradient)" opacity="0.3"/>
+                    <path d="M80 140L120 70L160 110L200 50L230 130L230 170H80V140Z" fill="url(#carGradient)" opacity="0.5"/>
+                    <defs>
+                        <linearGradient id="carGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:var(--accent);stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:var(--accent);stop-opacity:0.3" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Choose the perfect service for your vehicle</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M24 4L28 16H38L30 24L33 34L24 28L15 34L18 24L10 16H20L24 4Z" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Express Wash</h3>
+                    <p class="service-description">Quick exterior wash and dry. Perfect for regular maintenance. Includes wheel cleaning and tire shine.</p>
+                    <ul class="service-features">
+                        <li>Exterior wash & dry</li>
+                        <li>Wheel cleaning</li>
+                        <li>Tire shine</li>
+                        <li>15-20 minutes</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="8" y="12" width="32" height="24" rx="2" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                            <path d="M16 20L20 24L32 12" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Full Detail</h3>
+                    <p class="service-description">Comprehensive interior and exterior detailing. Deep clean, polish, and protection for a showroom finish.</p>
+                    <ul class="service-features">
+                        <li>Interior deep clean</li>
+                        <li>Exterior polish & wax</li>
+                        <li>Engine bay cleaning</li>
+                        <li>2-3 hours</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <circle cx="24" cy="24" r="16" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                            <path d="M24 8V24L32 32" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Ceramic Coating</h3>
+                    <p class="service-description">Premium long-lasting protection. Professional-grade ceramic coating that repels water and protects paint.</p>
+                    <ul class="service-features">
+                        <li>Paint correction</li>
+                        <li>Ceramic coating application</li>
+                        <li>5-year protection</li>
+                        <li>Full day service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing</h2>
+            <p class="section-subtitle">Transparent pricing for all vehicle sizes</p>
+            <div class="pricing-table-wrapper">
+                <table class="pricing-table" role="table" aria-label="Service pricing">
+                    <thead>
+                        <tr>
+                            <th scope="col">Service</th>
+                            <th scope="col">Sedan</th>
+                            <th scope="col">SUV</th>
+                            <th scope="col">Truck</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Express Wash</th>
+                            <td>$25</td>
+                            <td>$35</td>
+                            <td>$40</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Full Detail</th>
+                            <td>$150</td>
+                            <td>$200</td>
+                            <td>$250</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ceramic Coating</th>
+                            <td>$1,200</td>
+                            <td>$1,500</td>
+                            <td>$1,800</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <p class="section-subtitle">Select your preferred date, time, and service</p>
+            <form class="booking-form" id="bookingForm" novalidate>
+                <div class="form-group">
+                    <label for="service">Service Type <span class="required">*</span></label>
+                    <select id="service" name="service" required aria-required="true">
+                        <option value="">Select a service</option>
+                        <option value="express">Express Wash</option>
+                        <option value="full">Full Detail</option>
+                        <option value="ceramic">Ceramic Coating</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="vehicleType">Vehicle Type <span class="required">*</span></label>
+                    <select id="vehicleType" name="vehicleType" required aria-required="true">
+                        <option value="">Select vehicle type</option>
+                        <option value="sedan">Sedan</option>
+                        <option value="suv">SUV</option>
+                        <option value="truck">Truck</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date <span class="required">*</span></label>
+                    <input type="date" id="date" name="date" required aria-required="true" min="">
+                </div>
+                <div class="form-group">
+                    <label for="time">Time <span class="required">*</span></label>
+                    <select id="time" name="time" required aria-required="true">
+                        <option value="">Select a time</option>
+                    </select>
+                    <span class="time-suggestion" id="timeSuggestion" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                    <label for="name">Your Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required aria-required="true" placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required aria-required="true" placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Confirm Booking</button>
+                    <button type="button" class="btn btn-secondary" id="printReceipt" style="display:none;">Print Receipt</button>
+                </div>
+                <div class="form-message" id="formMessage" role="alert" aria-live="polite"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Before & After</h2>
+            <p class="section-subtitle">See the transformation</p>
+            <div class="gallery-container">
+                <div class="gallery-slider" id="gallerySlider">
+                    <div class="gallery-slide active" data-slide="0">
+                        <div class="before-after">
+                            <div class="before">
+                                <h4>Before</h4>
+                                <div class="gallery-placeholder">
+                                    <svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="200" height="150" fill="var(--surface)"/>
+                                        <path d="M50 50L150 50L150 100L50 100Z" fill="var(--muted)" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="after">
+                                <h4>After</h4>
+                                <div class="gallery-placeholder">
+                                    <svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="200" height="150" fill="var(--surface)"/>
+                                        <path d="M50 50L150 50L150 100L50 100Z" fill="var(--accent)" opacity="0.5"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide" data-slide="1">
+                        <div class="before-after">
+                            <div class="before">
+                                <h4>Before</h4>
+                                <div class="gallery-placeholder">
+                                    <svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="200" height="150" fill="var(--surface)"/>
+                                        <circle cx="100" cy="75" r="40" fill="var(--muted)" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="after">
+                                <h4>After</h4>
+                                <div class="gallery-placeholder">
+                                    <svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="200" height="150" fill="var(--surface)"/>
+                                        <circle cx="100" cy="75" r="40" fill="var(--accent)" opacity="0.5"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide" data-slide="2">
+                        <div class="before-after">
+                            <div class="before">
+                                <h4>Before</h4>
+                                <div class="gallery-placeholder">
+                                    <svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="200" height="150" fill="var(--surface)"/>
+                                        <path d="M100 30L130 90L70 90Z" fill="var(--muted)" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="after">
+                                <h4>After</h4>
+                                <div class="gallery-placeholder">
+                                    <svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="200" height="150" fill="var(--surface)"/>
+                                        <path d="M100 30L130 90L70 90Z" fill="var(--accent)" opacity="0.5"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-btn prev" aria-label="Previous slide" id="galleryPrev">‹</button>
+                    <div class="gallery-dots">
+                        <button class="gallery-dot active" aria-label="Slide 1" data-slide="0"></button>
+                        <button class="gallery-dot" aria-label="Slide 2" data-slide="1"></button>
+                        <button class="gallery-dot" aria-label="Slide 3" data-slide="2"></button>
+                    </div>
+                    <button class="gallery-btn next" aria-label="Next slide" id="galleryNext">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-list" role="list">
+                <div class="faq-item" role="listitem">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1" id="faq-question-1">
+                        <span>How long does a full detail take?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-1" role="region" aria-labelledby="faq-question-1">
+                        <p>A full detail typically takes 2-3 hours depending on the size of your vehicle and the level of service requested. We'll provide an accurate estimate when you book.</p>
+                    </div>
+                </div>
+                <div class="faq-item" role="listitem">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2" id="faq-question-2">
+                        <span>Do you offer mobile services?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-2" role="region" aria-labelledby="faq-question-2">
+                        <p>Yes, we offer mobile detailing services for your convenience. Additional travel fees may apply depending on your location. Contact us for details.</p>
+                    </div>
+                </div>
+                <div class="faq-item" role="listitem">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3" id="faq-question-3">
+                        <span>What payment methods do you accept?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-3" role="region" aria-labelledby="faq-question-3">
+                        <p>We accept cash, credit cards, debit cards, and digital payment methods including Apple Pay and Google Pay.</p>
+                    </div>
+                </div>
+                <div class="faq-item" role="listitem">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4" id="faq-question-4">
+                        <span>How long does ceramic coating last?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-4" role="region" aria-labelledby="faq-question-4">
+                        <p>Our professional-grade ceramic coating provides protection for up to 5 years with proper maintenance. Regular washing and occasional top-up treatments help maintain the coating's effectiveness.</p>
+                    </div>
+                </div>
+                <div class="faq-item" role="listitem">
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5" id="faq-question-5">
+                        <span>Can I wait while my car is being detailed?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" id="faq-answer-5" role="region" aria-labelledby="faq-question-5">
+                        <p>Yes, we have a comfortable waiting area with complimentary refreshments. You're also welcome to drop off your vehicle and return when it's ready.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating" aria-label="5 stars">
+                        <span aria-hidden="true">★★★★★</span>
+                    </div>
+                    <p class="testimonial-text">"Outstanding service! My car looks brand new after the full detail. The team was professional and thorough."</p>
+                    <p class="testimonial-author">— Sarah Johnson</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating" aria-label="5 stars">
+                        <span aria-hidden="true">★★★★★</span>
+                    </div>
+                    <p class="testimonial-text">"Best car wash in town. Quick, efficient, and my SUV has never looked better. Highly recommend!"</p>
+                    <p class="testimonial-author">— Michael Chen</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating" aria-label="5 stars">
+                        <span aria-hidden="true">★★★★★</span>
+                    </div>
+                    <p class="testimonial-text">"The ceramic coating was worth every penny. Water beads beautifully and the paint protection is incredible."</p>
+                    <p class="testimonial-author">— David Martinez</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="location">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.184132576687!2d-73.98811768459389!3d40.75889597932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Elite Auto Detailing Location"
+                    aria-label="Map showing Elite Auto Detailing location">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Elite Auto Detailing</h3>
+                    <p class="footer-text">Professional car care services you can trust. We're committed to making your vehicle shine.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Contact</h4>
+                    <address class="footer-contact">
+                        <p>123 Auto Care Blvd</p>
+                        <p>City, State 12345</p>
+                        <p><a href="tel:+15551234567">(555) 123-4567</a></p>
+                        <p><a href="mailto:info@eliteauto.com">info@eliteauto.com</a></p>
+                    </address>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Hours</h4>
+                    <ul class="footer-hours">
+                        <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+                        <li>Saturday: 9:00 AM - 5:00 PM</li>
+                        <li>Sunday: 10:00 AM - 4:00 PM</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Elite Auto Detailing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
